@@ -18,6 +18,7 @@ db.sequelize = sequelize;
 
 //Models table
 db.user = require('../models/model')(sequelize,dataType);
+db.customers = require('../models/loginModel')(sequelize,dataType);
 
 
 
